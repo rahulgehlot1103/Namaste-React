@@ -1,0 +1,15 @@
+1. Emmet: Web development tool for faster HTML/CSS coding.
+
+2. Library vs. Framework: Control flow - Library: Application code uses functions. Framework: Framework controls application flow.
+
+3. CDN: Content Delivery Network for faster content delivery globally.
+
+4. React: Named for "reacting" to data changes efficiently.
+
+5. crossorigin: Script tag attribute for loading external scripts securely.
+
+6. React vs. ReactDOM: React - Core library for UI components and state. ReactDOM - Renders React components to the DOM.
+
+7. react.development.js vs. react.production.js: Dev - Warnings and debugging. Production - Optimized, no warnings.
+
+8. async vs. defer: Script tag attributes - async: Downloads and executes without waiting. defer: Executes after parsing, maintains order.
