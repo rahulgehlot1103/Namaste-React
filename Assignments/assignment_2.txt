@@ -1,0 +1,51 @@
+Q.What is npm ?
+It is a package manager.
+It helps you install the diff. packages and manage the dependencies.
+
+
+Q. What is parcel ?
+It is a bundler.
+It is fast and optimised bundling process.
+Parcel automatically tracks all of the files, configuration, plugins, and dev dependencies that are involved in your build, and granularly invalidates the cache when something changes.
+It gives a server to run our app.
+We need to tell the entry point i.e npx parcel file_name.
+Dev and production build.
+Super fast build algo.
+Image optimization.
+HTTPS on dev.
+port number.
+zero config.
+consistent hashing algo.
+
+
+Q. npx ?
+It means execute using npm.
+
+
+Q. D/b dependencies and devDependencies ?
+dependencies: Required for the project to run in production.
+devDependencies: Only needed for development and testing, not required in production.
+
+
+Q. What is tree shaking ?
+It is a method to remove unused code from js bundles, resulting in smaller and faster loading apps.
+
+
+Q. HMR ? 
+Stands for Hot Module Replacement.
+It refreshes automatically on the browser.
+It uses File Watcher Algo. Written in C++.
+
+
+Q.package-lock.json.. ??
+->It is a very important file. Never keep it in gitignore.
+->It keeps the track of the hash as well.
+->It maintains the integrity as it has hash.
+-> It has enough info. to recreate node modules again.
+
+
+Q. Transitive dependencies ?
+When a dependency relies on any other dependency and so on.
+
+Q. browsersList ?
+It makes our code compatible for a lot of browsers.
