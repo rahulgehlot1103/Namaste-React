@@ -1,29 +1,39 @@
 import React from "react";
 import ReactDOM from "react-dom";
-const heading = React.createElement(
-  "h1",
-  {
-    id: "title",
-  },
-  "React heading 1"
-);
 
-const heading2 = React.createElement(
-    "h1",
-    {
-        id: "title",
-    },
-    "React heading 2"
-)
+const Logo = () => {
+  return (
+    <div className="logo">
+      <img src = "logo.png" />
+    </div>
+  );
+};
 
-const container = React.createElement(
-    "div",
-    {
-        id: "container",
-    },
-    [heading, heading2]
-)
+const SearchBar = () => {
+  return (
+    <div class="search-bar">
+      <input type="text" className="search-input" placeholder="Search..." />
+    </div>
+  );
+};
+
+const UserIcon = () => {
+  return (
+    <div class="user-icon">
+      <img src="user-icon.png" alt="User" />
+    </div>
+  );
+};
+const Header = () => {
+  return (
+    <div id = "header">
+      <Logo />
+      <SearchBar />
+      <UserIcon />
+    </div>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(container);
+root.render(<Header />);

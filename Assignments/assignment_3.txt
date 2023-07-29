@@ -1,0 +1,21 @@
+Q. What is jsx ?
+    It is a syntax extension for JavaScript that allows you to write HTML-like code directly within JavaScript. 
+
+    eg. for js:-
+    const element = React.createElement("h1", {}, 'Hello, World');
+
+    eg. for jsx:-
+    const element = <h1>Hello World</h1>
+
+
+Q. Superpowers of JSX ?
+    Familiar HTML like syntax.
+    Js integration.
+    Component based architecture.
+
+
+Q. Role of type attribute in script tag? What options can I use there?
+    The type attribute in the <script> tag is used to specify the media type of the script being embedded. It helps the browser understand how to interpret and execute the script content. 
+    options are:
+    module, text/js, application/js, text/ecmascipt
+
